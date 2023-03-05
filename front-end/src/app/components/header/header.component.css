@@ -1,0 +1,112 @@
+body {
+    font-family: 'Encode Sans', Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    min-height: 50px;
+    background-color: #045C82;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#logo-img {
+    height: 80px;
+    margin-right: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+/*** REDES SOCIALES ***/
+
+.nav-link {
+    color: #ddd;
+}
+
+.nav-link:hover {
+    color: #9cf5ff;
+}
+
+.color-anim:hover{
+    transition-property: color;
+    transition-duration: .5s;
+}
+
+.bgcolor-anim:hover {
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+/*** LOGIN ***/
+.nav-login {
+    cursor: pointer;
+    margin-left: 70px;
+    margin-right: 10px;
+    font-size: 20px;
+    background-color: #212549;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+.nav-login:hover {
+    background-color: #168f9f;
+}
+
+.nav-login:active {
+    background-color: white;
+    color: #2997ab;
+    outline: 2px solid #2997ab;
+}
+
+@media (max-width:649px) {
+    header {
+        flex-direction: column;
+        padding: 15px 0px;
+    }
+
+    #logo-img {
+        height: 50px;
+        margin: 0 auto;
+    }
+
+    /**** DISEÑOS DE ACCESO A REDES ****/
+    .nav-login{
+        display: block;
+        background-color: #222;
+        border-radius: 1.5rem;
+    }
+    .nav-link{
+        height: 40px;
+        border-radius: 50%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .nav-login {
+        margin: 0 auto;
+    }
+    .social a {
+        display: inline-block;
+        border-radius: 1rem;
+    }
+}
