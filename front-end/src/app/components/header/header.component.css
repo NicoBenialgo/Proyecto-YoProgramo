@@ -6,7 +6,7 @@ body {
 header {
     display: flex;
     min-height: 50px;
-    background-color: #045C82;
+    background: rgb(22,22,22);
     color: white;
     justify-content: space-between;
     align-items: center;
@@ -50,9 +50,18 @@ a {
     transition-duration: .5s;
 }
 
-.bgcolor-anim:hover {
-    transition-property: background-color;
-    transition-duration: .5s;
+/* hover en íconos de redes */
+#facebook:hover {
+    color:#337be1;
+}
+#instagram:hover {
+    color:#e04014;
+}
+#linkedin:hover {
+    color:#74c8e2;
+}
+#github:hover {
+    color:#681e9a;
 }
 
 /*** LOGIN ***/
@@ -61,22 +70,20 @@ a {
     margin-left: 70px;
     margin-right: 10px;
     font-size: 20px;
-    background-color: #212549;
+    background-color: white;
     border-radius: 30px;
     padding: 10px;
-    color: white;
+    color: #045C82;
     font-weight: bold;
-    border: 1px solid white;
 }
 
 .nav-login:hover {
-    background-color: #168f9f;
+    color: #b30255;
 }
 
 .nav-login:active {
-    background-color: white;
-    color: #2997ab;
-    outline: 2px solid #2997ab;
+    background-color: #b30255;
+    color: white;
 }
 
 @media (max-width:649px) {

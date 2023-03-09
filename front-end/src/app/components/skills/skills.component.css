@@ -1,0 +1,46 @@
+.row {
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.experience-class {
+    margin: 2em auto;
+    padding: 2%;
+    width: 80%;
+    height: auto;
+    background-color: rgb(7, 36, 50);
+    color: white;
+}
+
+.enterprise-academy {
+    width: 10em;
+}
+
+/* barra de progreso */
+.progress-bar{
+	color: #000000;
+	font-weight: 800;
+	font-size:1.5em;
+}
+.bar-html{
+	background-color: #f15e5e;
+}
+.bar-css{
+	background-color: #00c3ff;
+}
+.bar-js{
+	background-color: #cfd300;
+}
+.bar-bootstrap{
+	background-color: #9d04cc;
+}
+.bar-angular{
+	background-color: #ff0000be;
+}
+.bar-springboot{
+	background-color: #109c1b;
+}
+.bar-sql{
+	background-color: #5b8ce7;
+}
