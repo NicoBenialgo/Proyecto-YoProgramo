@@ -70,19 +70,20 @@ a {
     margin-left: 70px;
     margin-right: 10px;
     font-size: 20px;
-    background-color: white;
+    background-color: rgb(41, 41, 41);
     border-radius: 30px;
     padding: 10px;
-    color: #045C82;
+    color: #d9d9d9;
     font-weight: bold;
 }
 
 .nav-login:hover {
-    color: #b30255;
+    background-color: rgb(51, 51, 51);
+    color: #ffffff;
 }
 
 .nav-login:active {
-    background-color: #b30255;
+    background-color: #085077;
     color: white;
 }
 
