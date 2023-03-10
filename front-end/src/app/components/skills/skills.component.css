@@ -17,7 +17,6 @@ h3 {
 h4 {
     font-size: 1.5vw;
     color: white;
-    text-align: center;
 }
 
 .experience-class {
@@ -29,16 +28,30 @@ h4 {
     color: white;
 }
 
-.enterprise-academy {
-    width: 10em;
+/* hover en íconos de redes */
+.fa-html5 {
+    color:#e19232;
+}
+.fa-css3-alt {
+    color:#0e7dac;
+}
+.fa-square-js {
+    color:#c6c32b;
+}
+.fa-bootstrap {
+    color:#7b3dc3;
+}
+.fa-angular {
+    color:#f04545;
+}
+.fa-database {
+    color:#09dada;
 }
 
 /* barra de progreso */
 .container-img {
-    justify-content:flex-end;
-}
-.container-info {
-    justify-content:flex-start;
+    display: flex;
+    justify-content:center;
 }
 
 .progress-bar{

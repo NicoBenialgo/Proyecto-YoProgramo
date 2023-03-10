@@ -52,16 +52,16 @@ a {
 
 /* hover en íconos de redes */
 #facebook:hover {
-    color:#337be1;
+    color:#4183df;
 }
 #instagram:hover {
-    color:#e04014;
+    color:#f06d1c;
 }
 #linkedin:hover {
-    color:#74c8e2;
+    color:#43cef9;
 }
 #github:hover {
-    color:#681e9a;
+    color:#8818d3;
 }
 
 /*** LOGIN ***/
@@ -87,7 +87,7 @@ a {
     color: white;
 }
 
-@media (max-width:649px) {
+@media (max-width:767px) {
     header {
         flex-direction: column;
         padding: 15px 0px;
