@@ -48,6 +48,14 @@ h4 {
     color:#09dada;
 }
 
+.container-bar {
+    width: 40%;
+    padding: 2vh 2vw;
+    margin: 2vh 2vw;
+    background-color: rgb(11, 48, 66);
+    border-radius: 20px;
+}
+
 /* barra de progreso */
 .container-img {
     display: flex;
@@ -125,5 +133,11 @@ h4 {
     }
     h4 {
         font-size: 3.5vw;
+    }
+    .container-bar {
+        width: 85%;
+        padding: 1vh 1vw;
+        margin: 1vh 1vw;
+        border-radius: 10px;
     }
 }
