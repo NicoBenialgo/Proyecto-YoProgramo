@@ -6,8 +6,8 @@ body {
 header {
     display: flex;
     min-height: 50px;
-    background: rgb(22,22,22);
-    color: white;
+    background: rgb(225, 230, 236);
+    color: black;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -25,7 +25,7 @@ nav {
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 #logo-img {
@@ -36,32 +36,21 @@ a {
 }
 
 /*** REDES SOCIALES ***/
-
 .nav-link {
-    color: #ddd;
+    color:rgb(11, 48, 66);
 }
-
 .nav-link:hover {
-    color: #9cf5ff;
+    color:#0f52ce;
 }
 
-.color-anim:hover{
+.color-anim:hover {
     transition-property: color;
     transition-duration: .5s;
 }
 
-/* hover en íconos de redes */
-#facebook:hover {
-    color:#4183df;
-}
-#instagram:hover {
-    color:#f06d1c;
-}
-#linkedin:hover {
-    color:#43cef9;
-}
-#github:hover {
-    color:#8818d3;
+.bgcolor-anim:hover {
+    transition-property: background-color;
+    transition-duration: .5s;
 }
 
 /*** LOGIN ***/
@@ -78,8 +67,7 @@ a {
 }
 
 .nav-login:hover {
-    background-color: rgb(51, 51, 51);
-    color: #ffffff;
+    background-color: rgb(65, 65, 65);
 }
 
 .nav-login:active {
