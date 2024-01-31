@@ -30,22 +30,22 @@ h4 {
 
 /* hover en íconos de redes */
 .fa-html5 {
-    color:#e19232;
+    color:rgb(225, 146, 50);
 }
 .fa-css3-alt {
-    color:#0e7dac;
+    color:rgb(14, 125, 172);
 }
 .fa-square-js {
-    color:#c6c32b;
+    color:rgb(198, 195, 43);
 }
 .fa-bootstrap {
-    color:#7b3dc3;
+    color:rgb(123, 61, 195);
 }
 .fa-angular {
-    color:#f04545;
+    color:rgb(240, 69, 69);
 }
 .fa-database {
-    color:#09dada;
+    color:rgb(9, 218, 218);
 }
 
 .container-bar {
@@ -69,25 +69,25 @@ h4 {
 }
 
 .bar-html{
-	background-color: #f15e5e;
+	background-color: rgb(225, 146, 50);
 }
 .bar-css{
-	background-color: #00c3ff;
+	background-color: rgb(14, 125, 172);
 }
 .bar-js{
-	background-color: #cfd300;
+	background-color: rgb(198, 195, 43);
 }
 .bar-bootstrap{
-	background-color: #9d04cc;
+	background-color: rgb(123, 61, 195);
 }
 .bar-angular{
-	background-color: #ff0000be;
+	background-color: rgb(240, 69, 69);
 }
 .bar-springboot{
-	background-color: #109c1b;
+	background-color: rgb(16, 156, 27);
 }
 .bar-sql{
-	background-color: #5b8ce7;
+	background-color: rgb(9, 218, 218);
 }
 
 .progress-design {
